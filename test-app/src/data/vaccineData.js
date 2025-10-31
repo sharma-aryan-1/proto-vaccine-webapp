@@ -1,0 +1,63 @@
+export const vaccineRecommendations = {
+  '19-26': [
+    { name: 'COVID-19', note: '1 or more doses of current season vaccine, see CDC for schedule' },
+    { name: 'Influenza', note: '1 dose annually' },
+    { name: 'Tdap', note: '1 dose, then Td or Tdap booster every 10 years' },
+    { name: 'MMR', note: '1 or 2 doses if born in 1957 or later, unless documented immunity' },
+    { name: 'Varicella', note: '2 doses if no evidence of immunity' },
+    { name: 'HPV', note: '2 or 3 doses depending on age at initial vaccination or medical condition' },
+    { name: 'Hepatitis A', note: '2, 3, or 4 doses depending on vaccine' },
+    { name: 'Hepatitis B', note: 'Complete 2-, 3-, or 4-dose series' },
+    { name: 'Meningococcal ACWY', note: '1 or 2 doses depending on indication' },
+    { name: 'Meningococcal B', note: '2 or 3 doses depending on vaccine and indication' },
+    { name: 'Haemophilus influenzae type b (Hib)', note: '1 or 3 doses depending on indication' },
+    { name: 'Mpox', note: '2 doses if indicated' },
+    { name: 'Inactivated poliovirus (IPV)', note: 'Complete 3-dose series if incompletely vaccinated' }
+  ],
+  '27-49': [
+    { name: 'COVID-19', note: '1 or more doses of current season vaccine, see CDC for schedule' },
+    { name: 'Influenza', note: '1 dose annually' },
+    { name: 'Tdap', note: '1 dose, then Td or Tdap booster every 10 years' },
+    { name: 'MMR', note: '1 or 2 doses if born in 1957 or later, unless documented immunity' },
+    { name: 'Varicella', note: '2 doses if no evidence of immunity' },
+    { name: 'HPV', note: 'Vaccination for ages 27 through 45 years based on shared decision-making' },
+    { name: 'Hepatitis A', note: '2, 3, or 4 doses depending on vaccine' },
+    { name: 'Hepatitis B', note: 'Complete 2-, 3-, or 4-dose series' },
+    { name: 'Meningococcal ACWY', note: '1 or 2 doses depending on indication' },
+    { name: 'Meningococcal B', note: '2 or 3 doses depending on vaccine and indication' },
+    { name: 'Haemophilus influenzae type b (Hib)', note: '1 or 3 doses depending on indication' },
+    { name: 'Mpox', note: '2 doses if indicated' },
+    { name: 'Inactivated poliovirus (IPV)', note: 'Complete 3-dose series if incompletely vaccinated' }
+  ],
+  '50-64': [
+    { name: 'COVID-19', note: '1 or more doses of current season vaccine, see CDC for schedule' },
+    { name: 'Influenza', note: '1 dose annually' },
+    { name: 'Tdap', note: '1 dose, then Td or Tdap booster every 10 years' },
+    { name: 'MMR', note: '1 or 2 doses if born in 1957 or later, unless documented immunity' },
+    { name: 'Varicella', note: '2 doses if no evidence of immunity' },
+    { name: 'Hepatitis A', note: '2, 3, or 4 doses depending on vaccine' },
+    { name: 'Hepatitis B', note: 'Complete 2-, 3-, or 4-dose series' },
+    { name: 'Shingles (Zoster recombinant RZV)', note: '2 doses, recommended for adults 50+, even if previously received ZVL' },
+    { name: 'Meningococcal ACWY', note: '1 or 2 doses depending on indication' },
+    { name: 'Meningococcal B', note: '2 or 3 doses depending on vaccine and indication' },
+    { name: 'Haemophilus influenzae type b (Hib)', note: '1 or 3 doses depending on indication' },
+    { name: 'Mpox', note: '2 doses if indicated' },
+    { name: 'Inactivated poliovirus (IPV)', note: 'Complete 3-dose series if incompletely vaccinated' }
+  ],
+  '65+': [
+    { name: 'COVID-19', note: '1 or more doses of current season vaccine, see CDC for schedule' },
+    { name: 'Influenza', note: '1 dose annually—prefer high-dose or adjuvanted vaccine' },
+    { name: 'Tdap', note: '1 dose, then Td or Tdap booster every 10 years' },
+    { name: 'MMR', note: '1 or 2 doses if born in 1957 or later, unless documented immunity' },
+    { name: 'Varicella', note: '2 doses if no evidence of immunity' },
+    { name: 'Shingles (Zoster recombinant RZV)', note: '2 doses, recommended for adults 50+; especially for 65+' },
+    { name: 'Pneumococcal (PCV15/20/21, PPSV23)', note: 'Recommended for all adults 65+, see CDC schedule for dosing' },
+    { name: 'Hepatitis A', note: '2, 3, or 4 doses depending on vaccine' },
+    { name: 'Hepatitis B', note: 'Complete 2-, 3-, or 4-dose series' },
+    { name: 'Meningococcal ACWY', note: '1 or 2 doses depending on indication' },
+    { name: 'Meningococcal B', note: '2 or 3 doses depending on vaccine and indication' },
+    { name: 'Haemophilus influenzae type b (Hib)', note: '1 or 3 doses depending on indication' },
+    { name: 'Mpox', note: '2 doses if indicated' },
+    { name: 'Inactivated poliovirus (IPV)', note: 'Complete 3-dose series if incompletely vaccinated' }
+  ]
+};
