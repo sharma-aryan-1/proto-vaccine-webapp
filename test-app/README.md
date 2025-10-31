@@ -1,2 +1,5 @@
 # Webapp runs on React + Vite.
-Run with npm run dev
+cd test-app
+npm install
+npm run dev
+npm install framer-motion
